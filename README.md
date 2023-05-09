@@ -17,7 +17,7 @@ This is a logging library that provides a simple and flexible way to log message
 To use the logging library in your Go project, you can import it using the following command:
 
 ```go
-import "https://github.com/bitsexplained/logger.git"
+import "github.com/bitsexplained/logger"
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ import "https://github.com/bitsexplained/logger.git"
    package main
 
    import (
-      "https://github.com/bitsexplained/logger.git"
+      "github.com/bitsexplained/logger"
    )
 
     func main() {
