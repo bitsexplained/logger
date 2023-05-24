@@ -14,10 +14,10 @@ This is a logging library that provides a simple and flexible way to log message
 
 ## Installation
 
-To use the logging library in your Go project, you can import it using the following command:
+To install logging package in your Go project, simply run the following command from your terminal::
 
 ```go
-import "github.com/bitsexplained/logger"
+go get github.com/bitsexplained/logger
 ```
 
 ## Usage
