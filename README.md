@@ -1,27 +1,28 @@
-# A minimal logging library
+# A Minimal Logging Library for Go
 
-This is a logging library that provides a simple and flexible way to log messages with different severity levels written to different locations, such as files.
+This library offers a straightforward and adaptable way to log messages with varying severity levels to different destinations, such as files.
 
 
 ## Features
 
-- Log messages with different severity levels (Debug, Info, Warning, Error)
-- Customize log message format with timestamp, log level and message
-- Easy to configure and use in any Go program
-- Support for logging to files for now - will add support for more logging locations soon
-- Filter log messages based on log level, source module, and content - coming soon
+- Log messages with severity levels: Debug, Info, Warning, Error.
+- Customize log format: Include timestamp, log level, and message.
+- Easy configuration and usage: Designed for seamless integration into Go programs.
+- Support for logging to files: Future expansion planned for additional destinations.
+- Log filtering (coming soon): Filter based on log level, source module, and content.
+
 
 
 ## Installation
 
-To install logging package in your Go project, simply run the following command from your terminal::
+To incorporate this library into your Go project, run the following command in your terminal:
 
 ```go
 go get github.com/bitsexplained/logger
 ```
 
 ## Usage
-- Here's an example of how you can use logging library in your Go application:
+- Here's an example demonstrating how to utilize this library in your Go application:
 
 ```go
    package main
@@ -62,16 +63,21 @@ go get github.com/bitsexplained/logger
 }
 
 ```
-- In this example, we import the logging library and create a new logger instance. We then configure the logging settings, such as log level and log format. We add a file log location using the NewFileLog method, specifying the file name for logs. Finally, we use the logger to log messages with different severity levels and content using the Log method, and the logged messages will be written to the configured log file for further analysis and debugging.
+## Current Limitations:
+- Supports logging to files only.
+- Filtering functionality is not yet implemented.
 
-- Please note that currently, the logging library only supports writing logs to files, but in the future, it may add more logging destinations, such as console, databases, or remote logging services, based on user feedback and requirements.
+## Future Expansion:
+Planned enhancements based on user feedback:
+- Additional logging destinations (console, databases, remote logging services)
+- Log filtering capabilities
 
 
 
 ## Contributing
-Contributions to this library is welcomed! If you find a bug, have a feature request, or want to contribute code, please open an issue or submit a pull request to the GitHub repository.
+Your contributions are highly valued! To report bugs, suggest features, or contribute code, please create an issue or submit a pull request on the GitHub repository.
 
 ## License
-rate limiter library is released under the MIT License.
+his library is freely available under the MIT License.
 See  [LICENSE](LICENSE) for details.
 
