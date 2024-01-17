@@ -1,4 +1,4 @@
-# A Minimal Logging Library for Go
+# A Minimal Logging Library for Go Applications
 
 This library offers a straightforward and adaptable way to log messages with varying severity levels to different destinations, such as files.
 
